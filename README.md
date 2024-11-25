@@ -1,37 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Project Title: Multilingual Routing Application
+Description:
+ This project is a web application with dynamic multilingual support. The goal of the project is to provide seamless language switching for users while navigating different routes, ensuring an enhanced user experience for global audiences.
 
-## Getting Started
+## Key Features:
+Language Localization: Implemented dynamic language switching using i18next/react-intl (or the library you are using).
+Route-Based Language Change: The application updates the language automatically based on the URL or user actions.
+Translation Management: Added support for multiple languages (e.g., English, Spanish) with organized translation files for better scalability.
+Responsive Design: Ensures compatibility across devices and user interfaces.
+Reusable Components: Created modular and reusable React components that adapt to the selected language.
+Tech Stack:
+Frontend: React.js
+Routing: React Router (or any routing library you're using)
+Localization Library: i18next/react-intl
+Version Control: GitHub
+Implementation Steps:
+Initialized the project using React and added necessary dependencies for localization and routing.
+Configured i18n.js/localization.js for managing language translations dynamically.
+Implemented route-specific logic to trigger language changes.
+Added fallback logic to default to English if no language is specified.
+Updated components to support translated text using useTranslation/FormattedMessage.
+Tested the application for different languages and edge cases.
 
-First, run the development server:
+## How to Use:
+Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/your-repo-name.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies:
+npm install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Start the development server:
+npm start
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# Fetch-POSTS" 
+Open the app in your browser and navigate to routes like /en or /es to see the language change in action.
