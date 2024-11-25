@@ -24,7 +24,7 @@ Tested the application for different languages and edge cases.
 ## How to Use:
 Clone the repository:
 
-git clone https://github.com/your-repo-name.git
+git clone https://github.com/IsmailAbdulkareem/Fetch-POSTS.git
 
 Install dependencies:
 npm install
